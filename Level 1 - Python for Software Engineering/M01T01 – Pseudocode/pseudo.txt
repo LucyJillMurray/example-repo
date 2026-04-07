@@ -1,0 +1,30 @@
+2.1) 
+step one: ask user for a number
+step two: check if number is zero; if it is zero go to step three. If number is not zero save the number and go back to step one
+step three: traverse through the list of saved numbers and find the maximum number.  To do this declare the first number the largest and compare to the number to the right of this.
+If the second is bigger make it the largest number else leave the first number is the largest and move on to the third number. Go through the rest of the list until you reach the end. 
+step four: return the largest number.
+ 
+2.2) 
+step one: os user for first name
+step two: make a variable called first_name and let it equal the name given in step one.
+step three: print out the first name variable concatenated with the words "Hello, World"
+
+2.3) 
+step one: read in integers and store them in a collection type variable that can have items added to it and isn't a fixed length.
+step two: create a variable called count that will track the number of integers and a variable called sum tracking thee sum  of the integers.
+step three: traverse through the collection made in step one and foreach integer plus one to the count and plus the value of the integer to the sum until you hit the end of the list.
+step four: divide the sum by the count this will give you the average and the average can be returned.
+
+2.4)
+step one: create a collection
+step two: read in grocery list, if a grocery has not being bought then add to the collection made in step one.
+step three: sort the list created into alphabetical order
+step four: return the sorted list
+
+2.5)
+step one: read in value x and y
+step two: create a variable S whose value is x added to you
+step three: create a variable A whose value is S divided by two
+step four: create a variable P whose value is x multiplied by you
+step five: write out the variables S,A,P
