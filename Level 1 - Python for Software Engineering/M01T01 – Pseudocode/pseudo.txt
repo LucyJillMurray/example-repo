@@ -1,31 +1,39 @@
 2.1) 
-step one: ask user for a number
-step two: check if number is zero; if it is zero go to step three. If number is not zero save the number and go back to step one
-step three: traverse through the list of saved numbers and find the maximum number.  To do this declare the first number the largest and compare to the number to the right of this.
-If the second is bigger make it the largest number, else leave the first number as the largest and move on to the third number. Go through the rest of the list like this until you reach the end. 
-step four: return the largest number.
+1: Create an empty list called saved_numb
+2: Ask user for a number
+3: While the number is not equal zero 
+	3.1: Save the number to saved_numb
+	3.2: Ask the user for another number 
+4: Set the largest to the first number in saved_numb
+5: Foreach number in saved_numb, if the number is greater than largest, then make largest the current number.
+6: Print the largest number.
  
 2.2) 
-step one: ask user for their first name
-step two: make a variable called first_name and let it equal the name given in step one.
-step three: print out the first name variable concatenated with the words "Hello, World"
+1: Ask user for their first name
+2: Store the name in a variable called first_name
+3: Print out first_name followed by the words "Hello, World"
 
 2.3) 
-step one: read in integers and store them in a collection type variable that can have items added to it and isn't a fixed length.
-step two: create a variable called count that will track the number of integers and a variable called sum tracking the sum  of the integers.
-step three: traverse through the collection made in step one and for each integer plus one to the count and plus the value of the integer to the sum until you hit the end of the list.
-step four: divide the sum by the count this will give you the average.
-step five: return the average.
+1: Create an empty list called numb.
+2: Ask user for integers and add to numb until user stops entering numbers.
+3: Set count = 0
+4: Set sum = 0
+5: Foreach number in numb 
+	5.1: Add one to count 
+	5.2: Add the value to sum
+6: Create variable ave that equals the sum divided by the count
+7: Print the ave.
 
 2.4)
-step one: create a collection
-step two: read in grocery list, if a grocery has not being bought then add to the collection made in step one.
-step three: sort the list created into alphabetical order
-step four: return the sorted list
+1: Create a list called groceries.
+2: Ask the user to enter one grocery at a time.
+3: Foreach Grocery, if the groceries don't exist in the groceries list then add them.
+3: Sort the list created into alphabetical order
+4: Print the sorted list
 
 2.5)
-step one: read in value x and y
-step two: create a variable S whose value is X added to Y.
-step three: create a variable A whose value is S divided by two.
-step four: create a variable P whose value is X multiplied by Y.
-step five: write out the variables S,A,P.
+1: Read in value X and Y
+2: Create a variable S whose value is X added to Y.
+3: Create a variable A whose value is S divided by two.
+4: Create a variable P whose value is X multiplied by Y.
+5: Write out the variables S,A,P.
