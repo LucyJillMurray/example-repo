@@ -8,7 +8,7 @@ y = enumerate(favorite_movies)
 
 movie_list = list(y)
 # Learned how to print on multiple lines from claude
-# This was to stop to many characters on a single line
+# This was too stop to many characters on a single line
 print(
     f"Movie One: {movie_list[0][1]}, "
     f"Movie Two: {movie_list[1][1]}, "
