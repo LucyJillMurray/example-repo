@@ -9,4 +9,4 @@ jokes = [
 ]
 
 # Syntax learned from stack overflow
-print(jokes[random.randint(0, 3)])
+print(jokes[random.randint(0, len(jokes) - 1)])
