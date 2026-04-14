@@ -17,6 +17,7 @@ def calculator(x, y, operator):
         result = x / y
     else:
         raise Exception(f"{operator} is not supported by this calculator")
+    # Write equation to history file (equations.txt)
     with open("equations.txt", "a") as file:
         file.write(f"{x} {operator} {y} = {result}\n")
     print(f"The result is {result}")
@@ -34,8 +35,8 @@ if process == "calc":
         print("Please enter a valid number")
 
     operator = input("Enter operator: ")
-
     calculator(x, y, operator)
+
 elif process == "hist":
     try:
         with open("equations.txt", "r") as file:
