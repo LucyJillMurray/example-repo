@@ -1,14 +1,15 @@
 def adjacent_mines(row, col, grid):
     count = 0
-    # Count mines above
+    # Nested for loops to go through the adjacent cells
     for i in range(row - 1, row + 2):
         for j in range(col - 1, col + 2):
             if (
+                # Check out of range
                 i < 0
                 or j < 0
                 or (i > len(grid) - 1)
                 or (j > len(grid[0]) - 1)
-                # on current item
+                # On current item
                 or (i == row and j == col)
             ):
                 continue
